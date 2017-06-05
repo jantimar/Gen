@@ -1,0 +1,37 @@
+//
+//  SampleVC.swift
+//
+//  Created by Jan Timar on Date
+//  Copyright © 2017 Jan Timar. All rights reserved.
+//
+
+import UIKit
+import SnapKit
+
+class SampleVC: BaseVC {
+	
+	// MARK: - Public properties
+	var presenter: SamplePresenterProtocol?
+	
+	// MARK: - Private properties
+	
+	// MARK: - Lifecycle
+	
+	override func viewDidLoad() {
+		super.viewDidLoad()
+		
+		setupUI()
+		setupPresenter()
+	}
+	
+	private func setupUI() {
+		// Setup UI
+	}
+	
+	private func setupPresenter() {
+		// Setup presenter
+	}
+	
+	// MARK: - Actions
+	
+}

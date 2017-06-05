@@ -1,0 +1,19 @@
+//
+//  SamplePresenter.swift
+//
+//  Created by Jan Timar on Date
+//  Copyright © 2017 Jan Timar. All rights reserved.
+//
+
+import UIKit
+
+class SamplePresenter: SamplePresenterProtocol {
+
+	// MARK: - Public properties
+	weak var delegate: SamplePresenterDelegate?
+
+	// MARK: - Private properties
+	
+	// MARK: - SamplePresenterProtocol
+
+}

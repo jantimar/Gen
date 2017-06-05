@@ -1,0 +1,18 @@
+//
+//  SamplePresenterProtocol.swift
+//
+//  Created by Jan Timar on Date
+//  Copyright © 2017 Jan Timar. All rights reserved.
+//
+
+import UIKit
+
+protocol SamplePresenterDelegate: class {
+
+}
+
+protocol SamplePresenterProtocol {
+	
+	weak var delegate: SamplePresenterDelegate? { get set }
+
+}
