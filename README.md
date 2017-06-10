@@ -28,22 +28,21 @@ Jan Timar - jantimar2@gmail.com
 ## Hint
 For make it faster and clearly I create genfile.sh<br />
 For result look at Contactlist<br />
-->
 
-### Setup gen author, project and samples directory
 ```
-./gen -author "Jan Timar"<br />
-./gen -project "Contactlist"<br />
-#./gen -samples "/Users/jantimar/Samples/"<br />
-./gen -samples "/Users/jantimar/Samples2/"<br />
+# Setup gen author, project and samples directory
+./gen -author "Jan Timar"
+./gen -project "Contactlist"
+#./gen -samples "/Users/jantimar/Samples/"
+./gen -samples "/Users/jantimar/Samples2/"
 
 # Create screens with AppFlow with Contacts AddContact and Orders ViewControllers, Presenters and Protocols
-./gen -scf App Contacts AddContact Orders<br />
+./gen -scf App Contacts AddContact Orders
 # Create Contact and Order entities and they Model
-./gen -e Contact<br />
-./gen -e Order<br />
+./gen -e Contact
+./gen -e Order
 # Create use cases and they protocols
-./gen -uf RefreshContacts LoadContacts Thumbnail AddContact RefreshOrders LoadOrders<br />
+./gen -uf RefreshContacts LoadContacts Thumbnail AddContact RefreshOrders LoadOrders
 # Create services
 ./gen -sef Api Repo
 ```
