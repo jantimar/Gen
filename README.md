@@ -1,4 +1,4 @@
-## Gen
+# Gen
 Gen is simple swift script for generate swift classes for iOS project, for make you more faster, happy and lazy.
 
 ![](https://github.com/jantimar/Gen/blob/master/gen.gif)
@@ -30,7 +30,8 @@ For make it faster and clearly I create genfile.sh<br />
 For result look at Contactlist<br />
 ->
 
-# Setup gen author, project and samples directory
+### Setup gen author, project and samples directory
+```
 ./gen -author "Jan Timar"<br />
 ./gen -project "Contactlist"<br />
 #./gen -samples "/Users/jantimar/Samples/"<br />
@@ -45,3 +46,4 @@ For result look at Contactlist<br />
 ./gen -uf RefreshContacts LoadContacts Thumbnail AddContact RefreshOrders LoadOrders<br />
 # Create services
 ./gen -sef Api Repo
+```
