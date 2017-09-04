@@ -34,7 +34,7 @@ extension FileService {
 			content.append("\t\treturn screen\n")
 			content.append("\t}\n\n")
 			
-			content2.append("extension \(flow)Flow: \(screen)PresenterProtocol {\n")
+			content2.append("extension \(flow)Flow: \(screen)PresenterDelegate {\n")
 			content2.append("\t// TODO: Implement\n")
 			content2.append("}\n\n")
 			

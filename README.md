@@ -18,7 +18,7 @@ Use one of this command to setup gen and then generate your classes<br />
 ./gen -sef Service1 Service2 Service3 Service4  - Generate services factory and services<br />
 
 ## Samples
-Is there 2 king of samples<br />
+Is there 2 kind of samples<br />
 Samples - default<br />
 Samples2 - entities contains JSON extension and VC contains import SnapKit<br />
 
